@@ -1,0 +1,176 @@
+/* Layout -------------------------------------------------------------- */
+/* line 17, ../../../../.rvm/gems/ruby-1.9.2-p290/gems/compass-0.11.5/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline;
+}
+
+/* line 20, ../../../../.rvm/gems/ruby-1.9.2-p290/gems/compass-0.11.5/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
+body {
+  line-height: 1;
+}
+
+/* line 22, ../../../../.rvm/gems/ruby-1.9.2-p290/gems/compass-0.11.5/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
+ol, ul {
+  list-style: none;
+}
+
+/* line 24, ../../../../.rvm/gems/ruby-1.9.2-p290/gems/compass-0.11.5/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+/* line 26, ../../../../.rvm/gems/ruby-1.9.2-p290/gems/compass-0.11.5/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
+caption, th, td {
+  text-align: left;
+  font-weight: normal;
+  vertical-align: middle;
+}
+
+/* line 28, ../../../../.rvm/gems/ruby-1.9.2-p290/gems/compass-0.11.5/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
+q, blockquote {
+  quotes: none;
+}
+/* line 101, ../../../../.rvm/gems/ruby-1.9.2-p290/gems/compass-0.11.5/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
+q:before, q:after, blockquote:before, blockquote:after {
+  content: "";
+  content: none;
+}
+
+/* line 30, ../../../../.rvm/gems/ruby-1.9.2-p290/gems/compass-0.11.5/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
+a img {
+  border: none;
+}
+
+/* line 114, ../../../../.rvm/gems/ruby-1.9.2-p290/gems/compass-0.11.5/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
+article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, section, summary {
+  display: block;
+}
+
+/* line 9, ../sass/screen.sass */
+#page {
+  position: relative;
+  max-width: 1250px;
+  min-width: 900px;
+  /* max-width: $col-width * $total-cols */
+  /* min-width: $col-width * $total-cols * 3 / 4 */
+  margin: auto;
+}
+
+/* line 17, ../sass/screen.sass */
+#containerc {
+  margin-left: 300px;
+  margin-right: 300px;
+}
+
+/* line 21, ../sass/screen.sass */
+#container {
+  *zoom: 1;
+  margin: auto;
+  width: 51em;
+  max-width: 100%;
+  background-image: -webkit-gradient(linear, 0% 50%, 100% 50%, color-stop(1.961%, rgba(0, 0, 0, 0)), color-stop(1.961%, rgba(100, 100, 225, 0.25)), color-stop(9.804%, rgba(100, 100, 225, 0.25)), color-stop(9.804%, rgba(0, 0, 0, 0)), color-stop(11.765%, rgba(0, 0, 0, 0)), color-stop(11.765%, rgba(100, 100, 225, 0.25)), color-stop(19.608%, rgba(100, 100, 225, 0.25)), color-stop(19.608%, rgba(0, 0, 0, 0)), color-stop(21.569%, rgba(0, 0, 0, 0)), color-stop(21.569%, rgba(100, 100, 225, 0.25)), color-stop(29.412%, rgba(100, 100, 225, 0.25)), color-stop(29.412%, rgba(0, 0, 0, 0)), color-stop(31.373%, rgba(0, 0, 0, 0)), color-stop(31.373%, rgba(100, 100, 225, 0.25)), color-stop(39.216%, rgba(100, 100, 225, 0.25)), color-stop(39.216%, rgba(0, 0, 0, 0)), color-stop(41.176%, rgba(0, 0, 0, 0)), color-stop(41.176%, rgba(100, 100, 225, 0.25)), color-stop(49.02%, rgba(100, 100, 225, 0.25)), color-stop(49.02%, rgba(0, 0, 0, 0)), color-stop(50.98%, rgba(0, 0, 0, 0)), color-stop(50.98%, rgba(100, 100, 225, 0.25)), color-stop(58.824%, rgba(100, 100, 225, 0.25)), color-stop(58.824%, rgba(0, 0, 0, 0)), color-stop(60.784%, rgba(0, 0, 0, 0)), color-stop(60.784%, rgba(100, 100, 225, 0.25)), color-stop(68.627%, rgba(100, 100, 225, 0.25)), color-stop(68.627%, rgba(0, 0, 0, 0)), color-stop(70.588%, rgba(0, 0, 0, 0)), color-stop(70.588%, rgba(100, 100, 225, 0.25)), color-stop(78.431%, rgba(100, 100, 225, 0.25)), color-stop(78.431%, rgba(0, 0, 0, 0)), color-stop(80.392%, rgba(0, 0, 0, 0)), color-stop(80.392%, rgba(100, 100, 225, 0.25)), color-stop(88.235%, rgba(100, 100, 225, 0.25)), color-stop(88.235%, rgba(0, 0, 0, 0)), color-stop(90.196%, rgba(0, 0, 0, 0)), color-stop(90.196%, rgba(100, 100, 225, 0.25)), color-stop(98.039%, rgba(100, 100, 225, 0.25)), color-stop(98.039%, rgba(0, 0, 0, 0)), color-stop(100%, rgba(0, 0, 0, 0)));
+  background-image: -webkit-linear-gradient(left, rgba(0, 0, 0, 0) 1.961%, rgba(100, 100, 225, 0.25) 1.961%, rgba(100, 100, 225, 0.25) 9.804%, rgba(0, 0, 0, 0) 9.804%, rgba(0, 0, 0, 0) 11.765%, rgba(100, 100, 225, 0.25) 11.765%, rgba(100, 100, 225, 0.25) 19.608%, rgba(0, 0, 0, 0) 19.608%, rgba(0, 0, 0, 0) 21.569%, rgba(100, 100, 225, 0.25) 21.569%, rgba(100, 100, 225, 0.25) 29.412%, rgba(0, 0, 0, 0) 29.412%, rgba(0, 0, 0, 0) 31.373%, rgba(100, 100, 225, 0.25) 31.373%, rgba(100, 100, 225, 0.25) 39.216%, rgba(0, 0, 0, 0) 39.216%, rgba(0, 0, 0, 0) 41.176%, rgba(100, 100, 225, 0.25) 41.176%, rgba(100, 100, 225, 0.25) 49.02%, rgba(0, 0, 0, 0) 49.02%, rgba(0, 0, 0, 0) 50.98%, rgba(100, 100, 225, 0.25) 50.98%, rgba(100, 100, 225, 0.25) 58.824%, rgba(0, 0, 0, 0) 58.824%, rgba(0, 0, 0, 0) 60.784%, rgba(100, 100, 225, 0.25) 60.784%, rgba(100, 100, 225, 0.25) 68.627%, rgba(0, 0, 0, 0) 68.627%, rgba(0, 0, 0, 0) 70.588%, rgba(100, 100, 225, 0.25) 70.588%, rgba(100, 100, 225, 0.25) 78.431%, rgba(0, 0, 0, 0) 78.431%, rgba(0, 0, 0, 0) 80.392%, rgba(100, 100, 225, 0.25) 80.392%, rgba(100, 100, 225, 0.25) 88.235%, rgba(0, 0, 0, 0) 88.235%, rgba(0, 0, 0, 0) 90.196%, rgba(100, 100, 225, 0.25) 90.196%, rgba(100, 100, 225, 0.25) 98.039%, rgba(0, 0, 0, 0) 98.039%, rgba(0, 0, 0, 0) 100%);
+  background-image: -moz-linear-gradient(left, rgba(0, 0, 0, 0) 1.961%, rgba(100, 100, 225, 0.25) 1.961%, rgba(100, 100, 225, 0.25) 9.804%, rgba(0, 0, 0, 0) 9.804%, rgba(0, 0, 0, 0) 11.765%, rgba(100, 100, 225, 0.25) 11.765%, rgba(100, 100, 225, 0.25) 19.608%, rgba(0, 0, 0, 0) 19.608%, rgba(0, 0, 0, 0) 21.569%, rgba(100, 100, 225, 0.25) 21.569%, rgba(100, 100, 225, 0.25) 29.412%, rgba(0, 0, 0, 0) 29.412%, rgba(0, 0, 0, 0) 31.373%, rgba(100, 100, 225, 0.25) 31.373%, rgba(100, 100, 225, 0.25) 39.216%, rgba(0, 0, 0, 0) 39.216%, rgba(0, 0, 0, 0) 41.176%, rgba(100, 100, 225, 0.25) 41.176%, rgba(100, 100, 225, 0.25) 49.02%, rgba(0, 0, 0, 0) 49.02%, rgba(0, 0, 0, 0) 50.98%, rgba(100, 100, 225, 0.25) 50.98%, rgba(100, 100, 225, 0.25) 58.824%, rgba(0, 0, 0, 0) 58.824%, rgba(0, 0, 0, 0) 60.784%, rgba(100, 100, 225, 0.25) 60.784%, rgba(100, 100, 225, 0.25) 68.627%, rgba(0, 0, 0, 0) 68.627%, rgba(0, 0, 0, 0) 70.588%, rgba(100, 100, 225, 0.25) 70.588%, rgba(100, 100, 225, 0.25) 78.431%, rgba(0, 0, 0, 0) 78.431%, rgba(0, 0, 0, 0) 80.392%, rgba(100, 100, 225, 0.25) 80.392%, rgba(100, 100, 225, 0.25) 88.235%, rgba(0, 0, 0, 0) 88.235%, rgba(0, 0, 0, 0) 90.196%, rgba(100, 100, 225, 0.25) 90.196%, rgba(100, 100, 225, 0.25) 98.039%, rgba(0, 0, 0, 0) 98.039%, rgba(0, 0, 0, 0) 100%);
+  background-image: -o-linear-gradient(left, rgba(0, 0, 0, 0) 1.961%, rgba(100, 100, 225, 0.25) 1.961%, rgba(100, 100, 225, 0.25) 9.804%, rgba(0, 0, 0, 0) 9.804%, rgba(0, 0, 0, 0) 11.765%, rgba(100, 100, 225, 0.25) 11.765%, rgba(100, 100, 225, 0.25) 19.608%, rgba(0, 0, 0, 0) 19.608%, rgba(0, 0, 0, 0) 21.569%, rgba(100, 100, 225, 0.25) 21.569%, rgba(100, 100, 225, 0.25) 29.412%, rgba(0, 0, 0, 0) 29.412%, rgba(0, 0, 0, 0) 31.373%, rgba(100, 100, 225, 0.25) 31.373%, rgba(100, 100, 225, 0.25) 39.216%, rgba(0, 0, 0, 0) 39.216%, rgba(0, 0, 0, 0) 41.176%, rgba(100, 100, 225, 0.25) 41.176%, rgba(100, 100, 225, 0.25) 49.02%, rgba(0, 0, 0, 0) 49.02%, rgba(0, 0, 0, 0) 50.98%, rgba(100, 100, 225, 0.25) 50.98%, rgba(100, 100, 225, 0.25) 58.824%, rgba(0, 0, 0, 0) 58.824%, rgba(0, 0, 0, 0) 60.784%, rgba(100, 100, 225, 0.25) 60.784%, rgba(100, 100, 225, 0.25) 68.627%, rgba(0, 0, 0, 0) 68.627%, rgba(0, 0, 0, 0) 70.588%, rgba(100, 100, 225, 0.25) 70.588%, rgba(100, 100, 225, 0.25) 78.431%, rgba(0, 0, 0, 0) 78.431%, rgba(0, 0, 0, 0) 80.392%, rgba(100, 100, 225, 0.25) 80.392%, rgba(100, 100, 225, 0.25) 88.235%, rgba(0, 0, 0, 0) 88.235%, rgba(0, 0, 0, 0) 90.196%, rgba(100, 100, 225, 0.25) 90.196%, rgba(100, 100, 225, 0.25) 98.039%, rgba(0, 0, 0, 0) 98.039%, rgba(0, 0, 0, 0) 100%);
+  background-image: -ms-linear-gradient(left, rgba(0, 0, 0, 0) 1.961%, rgba(100, 100, 225, 0.25) 1.961%, rgba(100, 100, 225, 0.25) 9.804%, rgba(0, 0, 0, 0) 9.804%, rgba(0, 0, 0, 0) 11.765%, rgba(100, 100, 225, 0.25) 11.765%, rgba(100, 100, 225, 0.25) 19.608%, rgba(0, 0, 0, 0) 19.608%, rgba(0, 0, 0, 0) 21.569%, rgba(100, 100, 225, 0.25) 21.569%, rgba(100, 100, 225, 0.25) 29.412%, rgba(0, 0, 0, 0) 29.412%, rgba(0, 0, 0, 0) 31.373%, rgba(100, 100, 225, 0.25) 31.373%, rgba(100, 100, 225, 0.25) 39.216%, rgba(0, 0, 0, 0) 39.216%, rgba(0, 0, 0, 0) 41.176%, rgba(100, 100, 225, 0.25) 41.176%, rgba(100, 100, 225, 0.25) 49.02%, rgba(0, 0, 0, 0) 49.02%, rgba(0, 0, 0, 0) 50.98%, rgba(100, 100, 225, 0.25) 50.98%, rgba(100, 100, 225, 0.25) 58.824%, rgba(0, 0, 0, 0) 58.824%, rgba(0, 0, 0, 0) 60.784%, rgba(100, 100, 225, 0.25) 60.784%, rgba(100, 100, 225, 0.25) 68.627%, rgba(0, 0, 0, 0) 68.627%, rgba(0, 0, 0, 0) 70.588%, rgba(100, 100, 225, 0.25) 70.588%, rgba(100, 100, 225, 0.25) 78.431%, rgba(0, 0, 0, 0) 78.431%, rgba(0, 0, 0, 0) 80.392%, rgba(100, 100, 225, 0.25) 80.392%, rgba(100, 100, 225, 0.25) 88.235%, rgba(0, 0, 0, 0) 88.235%, rgba(0, 0, 0, 0) 90.196%, rgba(100, 100, 225, 0.25) 90.196%, rgba(100, 100, 225, 0.25) 98.039%, rgba(0, 0, 0, 0) 98.039%, rgba(0, 0, 0, 0) 100%);
+  background-image: linear-gradient(left, rgba(0, 0, 0, 0) 1.961%, rgba(100, 100, 225, 0.25) 1.961%, rgba(100, 100, 225, 0.25) 9.804%, rgba(0, 0, 0, 0) 9.804%, rgba(0, 0, 0, 0) 11.765%, rgba(100, 100, 225, 0.25) 11.765%, rgba(100, 100, 225, 0.25) 19.608%, rgba(0, 0, 0, 0) 19.608%, rgba(0, 0, 0, 0) 21.569%, rgba(100, 100, 225, 0.25) 21.569%, rgba(100, 100, 225, 0.25) 29.412%, rgba(0, 0, 0, 0) 29.412%, rgba(0, 0, 0, 0) 31.373%, rgba(100, 100, 225, 0.25) 31.373%, rgba(100, 100, 225, 0.25) 39.216%, rgba(0, 0, 0, 0) 39.216%, rgba(0, 0, 0, 0) 41.176%, rgba(100, 100, 225, 0.25) 41.176%, rgba(100, 100, 225, 0.25) 49.02%, rgba(0, 0, 0, 0) 49.02%, rgba(0, 0, 0, 0) 50.98%, rgba(100, 100, 225, 0.25) 50.98%, rgba(100, 100, 225, 0.25) 58.824%, rgba(0, 0, 0, 0) 58.824%, rgba(0, 0, 0, 0) 60.784%, rgba(100, 100, 225, 0.25) 60.784%, rgba(100, 100, 225, 0.25) 68.627%, rgba(0, 0, 0, 0) 68.627%, rgba(0, 0, 0, 0) 70.588%, rgba(100, 100, 225, 0.25) 70.588%, rgba(100, 100, 225, 0.25) 78.431%, rgba(0, 0, 0, 0) 78.431%, rgba(0, 0, 0, 0) 80.392%, rgba(100, 100, 225, 0.25) 80.392%, rgba(100, 100, 225, 0.25) 88.235%, rgba(0, 0, 0, 0) 88.235%, rgba(0, 0, 0, 0) 90.196%, rgba(100, 100, 225, 0.25) 90.196%, rgba(100, 100, 225, 0.25) 98.039%, rgba(0, 0, 0, 0) 98.039%, rgba(0, 0, 0, 0) 100%);
+  background-position: left top;
+}
+/* line 38, ../../../../.rvm/gems/ruby-1.9.2-p290/gems/compass-0.11.5/frameworks/compass/stylesheets/compass/utilities/general/_clearfix.scss */
+#container:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+/* Header -------------------------------------------------------------- */
+/* line 27, ../sass/screen.sass */
+h1 {
+  clear: both;
+  margin-left: 1.961%;
+  margin-right: 1.961%;
+  padding-left: 29.412%;
+}
+
+/* Nav -------------------------------------------------------------- */
+/* line 33, ../sass/screen.sass */
+nav#topnav {
+  padding-left: 2em;
+  background: orange;
+}
+
+/* line 37, ../sass/screen.sass */
+nav#left {
+  width: 300px;
+  background: green;
+  position: absolute;
+  left: 0;
+}
+
+/* line 43, ../sass/screen.sass */
+nav#right {
+  width: 300px;
+  background: green;
+  position: absolute;
+  top: 0;
+  right: 0;
+}
+
+/* Content -------------------------------------------------------------- */
+/* line 52, ../sass/screen.sass */
+div[role="main"] {
+  display: inline;
+  float: left;
+  width: 86.275%;
+  margin-right: 1.961%;
+  display: inline;
+  float: right;
+  margin-right: 1.961%;
+  #margin-left: -1em;
+}
+/* line 55, ../sass/screen.sass */
+div[role="main"] article {
+  display: inline;
+  float: left;
+  width: 65.909%;
+  margin-right: 2.273%;
+}
+/* line 57, ../sass/screen.sass */
+div[role="main"] aside {
+  display: inline;
+  float: left;
+  width: 31.818%;
+  margin-right: 2.273%;
+  display: inline;
+  float: right;
+  margin-right: 0;
+  #margin-left: -1em;
+}
+
+/* Footer -------------------------------------------------------------- */
+/* line 63, ../sass/screen.sass */
+footer {
+  clear: both;
+  margin-left: 1.961%;
+  margin-right: 1.961%;
+  padding-left: 29.412%;
+  padding-right: 29.412%;
+}

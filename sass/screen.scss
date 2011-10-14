@@ -1,0 +1,45 @@
+// Imports --------------------------------------------------------------*/
+
+@import "base";
+
+/* Layout --------------------------------------------------------------*/
+
+#page {
+  @include container;
+  @include susy-grid-background;
+}
+
+/* Header --------------------------------------------------------------*/
+
+h1 {
+  @include full;
+  @include prefix(3);
+}
+
+/* Nav --------------------------------------------------------------*/
+
+nav {
+  @include columns(3);
+  @include alpha;
+}
+
+/* Content --------------------------------------------------------------*/
+
+div[role="main"] {
+  @include columns(9);
+  @include omega;
+  article {
+    @include columns(6,9);
+  }
+  aside {
+    @include columns(3,9);
+    @include omega(9);
+  }
+}
+
+/* Footer --------------------------------------------------------------*/
+
+footer {
+  @include full;
+  @include pad(3,3);
+}

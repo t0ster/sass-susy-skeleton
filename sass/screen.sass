@@ -1,0 +1,65 @@
+// Imports --------------------------------------------------------------*/
+
+@import base
+
+/* Layout --------------------------------------------------------------
+
++global-reset
+
+#page
+  position: relative
+  max-width: 1250px
+  min-width: 900px
+  /* max-width: $col-width * $total-cols
+  /* min-width: $col-width * $total-cols * 3 / 4
+  margin: auto
+
+#containerc
+  margin-left: 300px
+  margin-right: 300px
+
+#container
+  +container
+  +susy-grid-background
+
+/* Header --------------------------------------------------------------
+
+h1
+  +full
+  +prefix(3)
+
+/* Nav --------------------------------------------------------------
+
+nav#topnav
+  padding-left: 2em
+  background: orange
+
+nav#left
+  width: 300px
+  background: green
+  position: absolute
+  left: 0
+
+nav#right
+  width: 300px
+  background: green
+  position: absolute
+  top: 0
+  right: 0
+
+/* Content --------------------------------------------------------------
+
+div[role="main"]
+  +columns(9)
+  +omega
+  article
+    +columns(6, 9)
+  aside
+    +columns(3, 9)
+    +omega(9)
+
+/* Footer --------------------------------------------------------------
+
+footer
+  +full
+  +pad(3, 3)
